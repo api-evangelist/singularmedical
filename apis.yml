@@ -1,7 +1,27 @@
 aid: singularmedical
-name: singularmedical
-description: singularmedical is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/singularmedical.png
+name: Singular Medical
+description: Singular Medical (Suzhou Singular Medical Equipment Co., Ltd. / 苏州无双医疗设备有限公司)
+  is a Chinese medical-device company pioneering the domestic research, development, and
+  manufacturing of cardiac rhythm management (CRM) products. It builds China's own implantable
+  cardioverter defibrillators (ICD) and implantable cardiac monitors (ICM) — devices that
+  automatically identify malignant arrhythmias, deliver anti-tachycardia pacing and defibrillation
+  to prevent sudden cardiac death, and provide long-term subcutaneous ECG monitoring for the
+  diagnosis of unexplained syncope, atrial fibrillation, and cryptogenic stroke, with cloud-based
+  event transmission for remote clinical review. Backed by Qiming Venture Partners. This is a
+  medical-device hardware manufacturer with a corporate marketing web presence and no public
+  developer, API, or documentation program at this time.
 url: https://raw.githubusercontent.com/api-evangelist/singularmedical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Medical Devices
+- MedTech
+- Healthcare
+- Cardiology
+- Cardiac Rhythm Management
+- Implantable Devices
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/singularmedical-domain-security.yml
 - type: Website
-  url: https://singularmedical.net
+  url: https://www.singularmedical.net
+- type: Blog
+  url: https://www.singularmedical.net/newscenter/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
